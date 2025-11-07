@@ -28,13 +28,13 @@
 
         <div id="right-div" class="flex
         items-center gap-[10px] mt-[20px] mr-[50px]">
-            <div id="heart" class="flex justify-center items-center p-6 w-[120px] h-[10px] rounded-[50px] bg-[#41ff6b1a]">
-                <span class="font-extrabold">0</span>
+            <div class="flex justify-center items-center p-6 w-[120px] h-[10px] rounded-[50px] bg-[#41ff6b1a]">
+                <span id="heart-num" class="font-extrabold">0</span>
                 <img src="assets/heart.png" alt="" class="h-[30px] w-[30px] ml-[5px]">
             </div>
-            <div id="coin" class="flex justify-center items-center p-6 w-[120px]
+            <div class="flex justify-center items-center p-6 w-[120px]
             h-[10px] rounded-[50px] bg-[#41ff6b1a]">
-                <span class="font-extrabold">100</span>
+                <span id="coin-num" class="font-extrabold">100</span>
                 <img src="assets/coin.png" alt="" class="h-[24px] w-[24px] ml-[5px]">
             </div>
             <div id="cpy" class="flex justify-center items-center p-6  w-[120px]
@@ -62,14 +62,14 @@
                     <div class="h-[40px] w-[40px] rounded-xl bg-[#ffe3e2] ">
                         <img src="assets/emergency.png" alt="" class="p-2">
                     </div>
-                    <i class="fa-regular fa-heart"></i>
+                    <button id="heart-btn-1" class="cursor-pointer "><i class="fa-regular fa-heart"></i></button>
                 </div>
 
             <!-- cart name & number -->
                 <h1 class="font-bold text-lg">National Emergency Number</h1>
-                <p class="text-gray-500">National Emergency</p><br>
+                <p id="cart-1-text" class="text-gray-500">National Emergency</p><br>
 
-                <h1 class="font-bold text-lg">999</h1>
+                <h1 id="cart-1-num" class="font-bold text-lg">999</h1>
                 <p class="bg-gray-200 w-[50px]
                 h-[30px] flex justify-center
                 rounded-xl">All</p><br>
@@ -81,12 +81,9 @@
                     <button class="btn bg-white border-gray-300 text-gray-500 rounded-lg w-30"><i class="fa-regular fa-copy"></i>Copy</button>
                 </div>
                 <div class="call-btn">
-                    <button class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="call-btn-1" class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
-
-
-
         </div>
 
         <!-- cart-2 -->
@@ -96,7 +93,7 @@
                     <div class="h-[40px] w-[40px] rounded-xl bg-[#ffe3e2] ">
                         <img src="assets/police.png" alt="" class="p-2">
                     </div>
-                    <i class="fa-regular fa-heart"></i>
+                    <button id="heart-btn-2" class="cursor-pointer "><i class="fa-regular fa-heart"></i></button>
                 </div>
 
             <!-- cart name & number -->
@@ -115,7 +112,7 @@
                     <button class="btn bg-white border-gray-300 text-gray-500 rounded-lg w-30"><i class="fa-regular fa-copy"></i>Copy</button>
                 </div>
                 <div class="call-btn">
-                    <button class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="call-btn-2" class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -130,7 +127,7 @@
                     <div class="h-[40px] w-[40px] rounded-xl bg-[#ffe3e2] ">
                         <img src="assets/fire-service.png" alt="" class="p-2">
                     </div>
-                    <i class="fa-regular fa-heart"></i>
+                    <button id="heart-btn-3" class="cursor-pointer "><i class="fa-regular fa-heart "></i></button>
                 </div>
 
             <!-- cart name & number -->
@@ -149,12 +146,9 @@
                     <button class="btn bg-white border-gray-300 text-gray-500 rounded-lg w-30"><i class="fa-regular fa-copy"></i>Copy</button>
                 </div>
                 <div class="call-btn">
-                    <button class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Fire</button>
+                    <button id="call-btn-3" class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
-
-
-
         </div>
 
         <!-- cart-4 -->
@@ -169,7 +163,7 @@
                     <div class="h-[40px] w-[40px] rounded-xl bg-[#ffe3e2] ">
                         <img src="assets/ambulance.png" alt="" class="p-2">
                     </div>
-                    <i class="fa-regular fa-heart"></i>
+                    <button id="heart-btn-5" class="cursor-pointer"><i class="fa-regular fa-heart "></i></button>
                 </div>
 
             <!-- cart name & number -->
@@ -188,7 +182,7 @@
                     <button class="btn bg-white border-gray-300 text-gray-500 rounded-lg w-30"><i class="fa-regular fa-copy"></i>Copy</button>
                 </div>
                 <div class="call-btn">
-                    <button class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="call-btn-5" class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -203,7 +197,7 @@
                     <div class="h-[40px] w-[40px] rounded-xl bg-[#ffe3e2] ">
                         <img src="assets/emergency.png" alt="" class="p-2">
                     </div>
-                    <i class="fa-regular fa-heart"></i>
+                    <button id="heart-btn-6" class="cursor-pointer "><i class="fa-regular fa-heart"></i></button>
                 </div>
 
             <!-- cart name & number -->
@@ -222,7 +216,7 @@
                     <button class="btn bg-white border-gray-300 text-gray-500 rounded-lg w-30"><i class="fa-regular fa-copy"></i>Copy</button>
                 </div>
                 <div class="call-btn">
-                    <button class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="call-btn-6" class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
         </div>
@@ -234,7 +228,7 @@
                     <div class="h-[40px] w-[40px] rounded-xl bg-[#ffe3e2] ">
                         <img src="assets/emergency.png" alt="" class="p-2">
                     </div>
-                    <i class="fa-regular fa-heart"></i>
+                    <button id="heart-btn-7" class="cursor-pointer "><i class="fa-regular fa-heart"></i></button>
                 </div>
 
             <!-- cart name & number -->
@@ -253,7 +247,7 @@
                     <button class="btn bg-white border-gray-300 text-gray-500 rounded-lg w-30"><i class="fa-regular fa-copy"></i>Copy</button>
                 </div>
                 <div class="call-btn">
-                    <button class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="call-btn-7" class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
         </div>
@@ -265,7 +259,7 @@
                     <div class="h-[40px] w-[40px] rounded-xl bg-[#ffe3e2] ">
                         <img src="assets/emergency.png" alt="" class="p-2">
                     </div>
-                    <i class="fa-regular fa-heart"></i>
+                    <button id="heart-btn-8" class="cursor-pointer "><i class="fa-regular fa-heart"></i></button>
                 </div>
 
             <!-- cart name & number -->
@@ -284,7 +278,7 @@
                     <button class="btn bg-white border-gray-300 text-gray-500 rounded-lg w-30"><i class="fa-regular fa-copy"></i>Copy</button>
                 </div>
                 <div class="call-btn">
-                    <button class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="call-btn-8" class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
         </div>
@@ -296,7 +290,7 @@
                     <div class="h-[40px] w-[40px] rounded-xl bg-[#ffe3e2] ">
                         <img src="assets/emergency.png" alt="" class="p-2">
                     </div>
-                    <i class="fa-regular fa-heart"></i>
+                    <button id="heart-btn-9" class="cursor-pointer "><i class="fa-regular fa-heart"></i></button>
                 </div>
 
             <!-- cart name & number -->
@@ -315,7 +309,7 @@
                     <button class="btn bg-white border-gray-300 text-gray-500 rounded-lg w-30"><i class="fa-regular fa-copy"></i>Copy</button>
                 </div>
                 <div class="call-btn">
-                    <button class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="call-btn-9" class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
         </div>
@@ -327,7 +321,7 @@
                     <div class="h-[40px] w-[40px] rounded-xl bg-[#ffe3e2] ">
                         <img src="assets/emergency.png" alt="" class="p-2">
                     </div>
-                    <i class="fa-regular fa-heart"></i>
+                    <button id="heart-btn-10" class="cursor-pointer "><i class="fa-regular fa-heart"></i></button>
                 </div>
 
             <!-- cart name & number -->
@@ -346,12 +340,15 @@
                     <button class="btn bg-white border-gray-300 text-gray-500 rounded-lg w-30"><i class="fa-regular fa-copy"></i>Copy</button>
                 </div>
                 <div class="call-btn">
-                    <button class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="call-btn-10" class="btn bg-green-600 text-white rounded-lg w-30"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
         </div>
 
     </div>
        
+
+
+    <script src="script.js"></script>
 </body>
 </html>
