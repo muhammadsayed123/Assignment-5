@@ -13,8 +13,36 @@
 
     <!-- font-awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @media screen and (max-width:570px) {
+            .dby-sec{
+                width: 570px;
+                
+            }
+            .ban-sec{
+                width:580px
+            }
+            .ban-img{
+                width: 50px;
+                height: 50px;
+            }
+            .cart-sec{
+                grid-template-columns: repeat(1,1fr);
+            }
+            .cart-4{
+                width: 350px;
+                height: 300px;
+                display: none;
+            }
+            .cart-10{
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+
 </head>
-<body class="w-max-[1920px] h-max-[1610px] bg-[#f5fff6]">
+<body class="dby-sec w-max-[1920px] h-max-[1610px] bg-[#f5fff6]">
     <!-- nav section -->
      <div class="flex items-center justify-between bg-white">
 
@@ -45,15 +73,15 @@
      </div>
 
      <!-- banner section -->
-      <div class="max-w-[1920px] h-[240px] bg-[linear-gradient(90deg,#013223_0%,#006747_50%,#013223_100%)] flex flex-col items-center justify-center" >
-        <img src="assets/logo.png" alt="" class="h-[90px] w-[90px]">
+      <div class="ban-sec max-w-[1920px] h-[240px] bg-[linear-gradient(90deg,#013223_0%,#006747_50%,#013223_100%)] flex flex-col items-center justify-center" >
+        <img src="assets/logo.png" alt="" class="ban-img h-[90px] w-[90px]">
         <h1 class="font-bold text-4xl text-white mt-5 mb-5">Emergency Service Directory</h1>
         <p class="font-semibold text-white">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
         
       </div>
 
       <!-- cart section -->
-    <div class="grid grid-cols-4 ">
+    <div class="grid grid-cols-4 cart-sec">
 
         <!-- cart-1 -->
         <div class="cart-1 border-2 w-[350px] h-[300px] rounded-xl mt-8 ml-10 bg-white p-8 border-none shadow-xl">
