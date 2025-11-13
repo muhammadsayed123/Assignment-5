@@ -14,7 +14,12 @@ function heartFunction(e){
 }
 
 
-//coin section functionality
+//clear button
+
+document.getElementById("clear-btn").addEventListener("click",function(){
+    historyData.length=0;
+    renderHistory();
+})
 
 
 
