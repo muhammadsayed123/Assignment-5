@@ -73,7 +73,7 @@ function renderHistory(){
                 <p class="text-gray-500 flex items-center">${data.date}</p>
         </div><br>
         `
-        historyContainer.prepend(div)
+        historyContainer.appendChild(div)
     }
 }
 
