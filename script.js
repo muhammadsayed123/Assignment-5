@@ -295,6 +295,49 @@ document.getElementById("call-btn-10").addEventListener("click",function(){
 })
 
 
+// COPY button functionality
+
+const cpyNum=1
+
+function cpyFunction(c){
+    const mainCpyNum=parseInt(document.getElementById("main-copy-num").innerText)
+    afterTapCpyNum=cpyNum+mainCpyNum
+
+    document.getElementById("main-copy-num").innerText=afterTapCpyNum
+    return afterTapCpyNum
+}
+
+document.getElementById("cpy-btn-1").addEventListener("click",function(){
+    cpyFunction("cpy-btn-1")
+})
+document.getElementById("cpy-btn-2").addEventListener("click",function(){
+    cpyFunction("cpy-btn-2")
+})
+document.getElementById("cpy-btn-3").addEventListener("click",function(){
+    cpyFunction("cpy-btn-3")
+})
+document.getElementById("cpy-btn-5").addEventListener("click",function(){
+    cpyFunction("cpy-btn-5")
+})
+document.getElementById("cpy-btn-6").addEventListener("click",function(){
+    cpyFunction("cpy-btn-6")
+})
+document.getElementById("cpy-btn-7").addEventListener("click",function(){
+    cpyFunction("cpy-btn-7")
+})
+document.getElementById("cpy-btn-8").addEventListener("click",function(){
+    cpyFunction("cpy-btn-8")
+})
+document.getElementById("cpy-btn-9").addEventListener("click",function(){
+    cpyFunction("cpy-btn-9")
+})
+document.getElementById("cpy-btn-10").addEventListener("click",function(){
+    cpyFunction("cpy-btn-10")
+})
+
+
+
+
 
 
 
